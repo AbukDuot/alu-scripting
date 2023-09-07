@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
 
+#Match the regular expression(regex)
+regex = /hb?tn/
 
-#Match the regular expression
-regex = /hbt+n/
-
-puts ARGV[0].scan(/hbt+n/).join
+puts ARGV[0].scan(/hb?tn/).join
